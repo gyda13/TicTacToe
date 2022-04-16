@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finish">
+
+    <Button
+        android:id="@+id/playagain"
+        android:layout_width="192dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/yellow"
+        android:layout_centerHorizontal="true"
+        android:text="Play Again"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="192dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/yellow"
+        android:layout_centerHorizontal="true"
+        android:text="Home"
+        android:textSize="20dp"
+
+         />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="269dp"
+        android:layout_height="304dp"
+        app:srcCompat="@drawable/images"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="306dp"
+        android:layout_height="116dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/ff3593abb210cdb754905824d584c74b" />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="114dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Start" />
+</RelativeLayout>
